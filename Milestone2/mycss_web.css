@@ -1,0 +1,96 @@
+/* --------------------------- General Stuff  --------------------------- */
+html {
+    color: white;
+}
+
+html p, #Work_Experience ul li {
+    font-size: 21px;
+}
+
+
+h2, h3, h3 a, h4, form label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------------------- Navbar  --------------------------- */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(314deg, #0023e6 0%, #8600ff 25%, #0023e6 50%, #8600ff 75%, #0023e6 100%);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 40px 0px;
+}
+
+.navbar ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    white-space: nowrap;
+    transform: translateX(-30px);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: rgb(0, 167, 245);
+    box-shadow: 0 0 10px white;
+    border-radius: 3px;
+  } 
+
+/* --------------------------- BPI --------------------------- */
+#BPI h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+}
+
+#BPI h1, #BPI h2 {
+    text-align: center;
+}
+
+#ProfilePic {
+    width: 18%;
+    border-radius: 15px;
+    margin-left: 41%;
+    margin-top: -20px;
+    border: 3px solid rgb(0, 167, 245);
+}
+
+/* --------------------------- Work Experience --------------------------- */
+#Work_Experience ul li {
+    font-size: larger;
+}
+
+/* --------------------------- Programming Skills --------------------------- */
+.p_skills {
+    border: 2px solid;
+    font-size: larger;
+}
+
+.p_skills th, .p_skills td{
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+
+/* --------------------------- Favorite Media --------------------------- */
+#favTV img {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+
+
+
+

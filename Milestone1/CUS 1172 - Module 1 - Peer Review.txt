@@ -1,0 +1,38 @@
+=========== Yaw Kessey-Ankomah ===========
+Yaw's submission for this project I believe is worth that of Full Marks. 
+
+The submission PDF correctly lists both the URL to the repository and its
+respective GitHub Pages site URL. The structure of the HTML code is very organized 
+and is split section by section using <divs> (with unique ids).
+
+Yaw successfully included all 9 required sections listed in the requirements
+for this milestone of the project. The only thing I would argue is missing are form
+tags (however, this was not listed in the main requirements section)
+
+=========== Michael Brian Lopez ===========
+Michael's submission for this project I believe is worth that of Full Marks. 
+
+Not only does the submission PDF correctlty list both the URL for the repository and the site, but
+Michael also wrote a very detailed Work Description, even going as far as to write justifications
+for certain things such as the placement of the menu section and problems that are faced with YouTube embedding.
+
+The GitHub repository has a well organized folder structure, with all images used in its own directory.
+The HTML code is clean and very well structured as well. Michael used section tags with unique class names (as well as enclosing most of the code in <main> tags)
+Michael has fufilled every main requirement listed in instructions PDF. The only thing I notice missing are
+<span> and <form> tags. However, I think in the grand scheme of things, these are minor. 
+
+=========== Toni Ross Lagat Santiago ===========
+Ross's submission for this project I believe is worth that of a 3 / Good.
+
+The submission PDF document lists both the URL for the repository and the GH Pages site.
+
+However, Ross is missing both the menu section and the projects section listed 
+under the major requirements. Otherwise, I think the project is good overall
+
+=========== Andrew C Henkel ===========
+Andrew's submission for this prohect I believe is worth that of Full Marks
+
+Andrew not only fufilled the requirementes listed in the instructional PDF 
+but he did so with detail, especially with the submission PDF. 
+
+The HTML code was also very well structured
