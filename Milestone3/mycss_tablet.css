@@ -1,0 +1,33 @@
+/* 2134px is the tested width for my 24" Desktop Monitor*/
+
+@media print {
+    .screen_only {
+        display: none;
+    }
+}
+
+@media (min-width: 1920px) {
+    transform:scale(1.1);
+    transform-origin: 0 0;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: rgb(71, 70, 70);
+    }
+
+    .navbar {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+
+    .menu li{
+        float: left;
+    }
+
+}

@@ -1,0 +1,138 @@
+/* --------------------------- General Stuff  --------------------------- */
+html {
+    color: white;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+body p, #Work_Experience ul li, hr, table{
+    font-size: 21px;
+    color: white;
+}
+
+.jumbotron {
+    background-color:  rgb(37, 37, 37);
+    height: 20vh;
+    color: white;
+}
+
+.jumbotron h1 {
+    padding-top: 60px;
+}
+
+        /* --------------------------- Navbar  --------------------------- */
+nav {
+    background: linear-gradient(314deg, #0023e6 0%, #8600ff 25%, #0023e6 50%, #8600ff 75%, #0023e6 100%);
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    margin-left:30px;
+    margin-right:30px
+}
+
+h2, h3, h3 a, h4, form label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* OLD NAVBAR CSS:
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(314deg, #0023e6 0%, #8600ff 25%, #0023e6 50%, #8600ff 75%, #0023e6 100%);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 40px 0px;
+}
+
+.navbar ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    white-space: nowrap;
+    transform: translateX(-30px);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: rgb(0, 167, 245);
+    box-shadow: 0 0 10px white;
+    border-radius: 3px;
+  }  */
+
+/* --------------------------- BPI --------------------------- */
+#BPI h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
+#BPI h1, #BPI h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#ProfilePic {
+    width: 50%;
+    border-radius: 15px;
+    border: 3px solid rgb(0, 167, 245);
+    padding: auto;
+}
+
+/* --------------------------- Work Experience --------------------------- */
+#Work_Experience ul li {
+    font-size: larger;
+}
+
+/* --------------------------- Programming Skills --------------------------- */
+/* .p_skills {
+    border: 2px solid;
+    font-size: larger;
+}
+
+.p_skills th, .p_skills td{
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+ */
+
+ .table {
+    color:white;
+ }
+
+/* --------------------------- Favorite Media --------------------------- */
+#favMedia h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#favTV img {
+    width: 35rem;
+    margin-bottom: 10px;
+}
+
