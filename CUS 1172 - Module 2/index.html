@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---------------------------------------- HEAD ---------------------------------------->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonios' To-Do List</title>
+    <!--Styling-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--Scripting-->
+    <script src="script.js"></script>
+</head>
+
+<body> 
+<!---------------------------------------- BODY---------------------------------------->
+
+<header id = "header">
+    <div class="container-fluid p-5 text-white text-center">
+        <h1>Adoni's To-Do List</h1>
+    </div>
+</header>
+
+<br/> <!--minor line break-->
+
+<form id = "task-form">
+    <input type="text" id="task" placeholder="Enter a new task..." autocomplete="off" autofocus>
+    <select id = "priority_level">
+        <option value = "High">High</option>
+        <option value = "Medium">Medium</option>
+        <option value = "Low">Low</option>
+    </select>
+    <button id="add">+</button> 
+
+</form>
+
+<br/> <!--minor line break-->
+<hr>
+
+<div class="toDo-container">
+    <ul id = toDo-List></ul>
+</div>
+
+</body>
+
+</html>

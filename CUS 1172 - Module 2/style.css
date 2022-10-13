@@ -1,0 +1,133 @@
+/* --------------------------- General -------------------------- */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(232,251,255);
+    background: linear-gradient(90deg, rgba(232,251,255,1) 0%, rgba(238,252,255,1) 50%, rgba(232,251,255,1) 100%);
+}
+
+/* --------------------------- Header -------------------------- */
+#header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(3,155,217,1) 85%, rgba(0,212,255,1) 100%);
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 900;
+}
+
+hr {
+    color: #0d75ec;
+}
+
+/* --------------------------- New Task -------------------------- */
+#task-form {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#task {
+    width: 25%;
+    height: 52px;
+    padding: 12px;
+    color: rgb(13, 137, 179);
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #0096e1;
+      
+}
+
+#priority_level {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #0096e1;
+    margin-right: 10px;
+}
+
+
+#add {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #0d75ec;
+    color: #ffffff;
+    outline: none;
+    width: 2.5%;
+    height: 45px;
+    border: none;
+    border-radius: 12px;
+}
+
+#add:hover {
+    box-shadow: 0 5px 15px rgba(2, 103, 255, 0.4);
+}
+
+#add:active {
+    transform: scale(0.85);
+}
+
+/* --------------------------- To-Do List -------------------------- */
+.toDo-container h2{
+    color: rgb(0, 17, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: underline;
+    display: grid;
+    place-items: center;
+}
+#toDo-List {
+    padding: 5px 5px;
+    list-style: none;
+    display: grid;
+    place-items: center;
+    min-width: 50%;
+}
+
+
+#toDo-List li {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    padding: 6px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-size: 30px;
+    background-color: #0d75ec;
+    margin-top: 20px;
+
+}
+
+
+
+.remove {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+
+.complete {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(6, 199, 6);
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+
+.priority {
+    margin-left: 10px;
+    color: aquamarine;
+}
