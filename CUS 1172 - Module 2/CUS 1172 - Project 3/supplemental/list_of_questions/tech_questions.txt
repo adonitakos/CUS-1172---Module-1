@@ -1,0 +1,119 @@
+1). Which component is considered the 'brain' of the computer?
+    (a). Motherboard
+    (b). CPU (Central Processing Unit)
+    (c). RAM (Random Access Memory)
+    (d). Secondary Storage (Hard Drive)
+
+2). What is the memory limit of 32-bit operating system?
+    (a). 2GB
+    (b). 4GB
+    (c). 8GB
+    (d). 32GB
+
+3). What is the memory limit of 64-bit operating system?
+    (a). 64GB
+    (b). 64TB
+    (c). 1PB
+    (d). 6PB
+
+4). What resolution is 4K video?
+    (a). 1920 x 1080
+    (b). 3840 x 2160
+    (c). 1024 x 768
+    (d). 7680 x 4320
+
+5). What is currently the largest consumer hard disk drive?
+    (a). 5TB
+    (b). 10TB
+    (c). 20TB
+    (d). 40TB
+
+6). What is currently the largest consumer solid state drive?
+    (a). 500GB
+    (b). 1TB
+    (c). 8TB
+    (d). 15TB
+
+7). Who is the father of the Linux opreating system kernel?
+    (a). Steve Jobs
+    (b). Linus Torvalds
+    (c). Elon Musk
+    (d). Bill Gates
+
+8). Who is considerd as the father of computing?
+    (a). Alan Turing
+    (b). Charles Babbage
+    (c). Herman Hollerith
+    (d). Nikola Tesla
+
+9). Which company was NOT founded by Elon Musk?
+    (a). Twtiter
+    (b). Tesla
+    (c). The Boring Company
+    (d). SpaceX
+
+10). LinkedIn is owned by which major tech company?
+    (a). Meta Platforms (Facebook)
+    (b). Google (Alphabet Inc)
+    (c). Amazon
+    (d). Microsoft
+
+11). Which web-browser is NOT Chromium based?
+    (a). Microsoft Edge
+    (b). Mozilla Firefox
+    (c). Opera
+    (d). Brave
+
+12). What number base system do computers use?
+    (a). Unary (Base 1)
+    (b). Binary (Base 2)
+    (c). Decimal (Base 10)
+    (d). Hexadecimal (Base 16)
+
+13). What is the fourth layer in the TCP/IP Model?
+    (a). Physical 
+    (b). Data-Link
+    (c). Transport
+    (d). Application
+
+14). To increase the performance of an old computer, which is the first component you should replace?
+    (a). Secondary Storage / Disk Drive
+    (b). RAM
+    (c). CPU 
+    (d). Power Supply (PSU)
+
+15). Which of the operating systems is considered the lightest?
+    (a). Windows
+    (b). macOS
+    (c). Linux
+    (d). Solaris
+
+16). Which video conferncing is owned by Cisco?
+    (a). Zoom
+    (b). WebEx
+    (c). Skype
+    (d). Meet
+
+17). What social media platform is owned by a company outside the US?
+    (a). Facebook
+    (b). Snapchat
+    (c). Twitter
+    (d). TikTok
+
+18). Which big production company does NOT have its own streaming service?
+    (a). Walt Disney Pictures
+    (b). Sony Pictures
+    (c). Universal Studios
+    (d). Paramount Pictures
+
+19). Which company was among the first to launch smartwatches?
+    (a). Apple
+    (b). Google
+    (c). Samsung
+    (d). Huwaei
+
+20). How much was WhatsApp acquired for?
+    (a). $1 billion
+    (b). $5 billion
+    (c). $10 billion
+    (d). $16 billion

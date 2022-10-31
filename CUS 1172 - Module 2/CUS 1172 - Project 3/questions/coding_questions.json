@@ -1,0 +1,270 @@
+{
+    "coding_questions": [
+    {
+        "id": 1,
+        "questionType": "multiple_choice",
+        "questionText": "Which of the folliwng programming languages is the most low-level?",
+        "correctAnswer": "Assembly",
+        "options": [
+            "Java",
+            "C",
+            "Assembly",
+            "C++"
+        ],
+        "explanation": "Assembly requires the most lines of code for even the most basic tasks, but has a very strong correspondence with the architecture's machine code. Assembly is typically used in operating system kernels."
+    },
+
+    {
+        "id": 2,
+        "questionType": "multiple_choice",
+        "questionText": "Which of the folliwng programming languages is the most low-level?",
+        "correctAnswer": "Assembly",
+        "options": [
+            "Java",
+            "C",
+            "Assembly",
+            "C++"
+        ],
+        "explanation": "Python has the slowest run-times of these langauges, but makes up for it with it's highly intutive syntax and incredible libraries"
+    },
+
+    {
+        "id": 3,
+        "questionType": "multiple_choice",
+        "questionText": "What is the specific use case of the CSS language?",
+        "correctAnswer": "Styling web pages",
+        "options": [
+            "Programming hardware",
+            "Creating mobile applications",
+            "Styling web pages",
+            "Mathematical utilization in engineering"
+        ],
+        "explanation": "Cascading Style Sheets is used to style and position elements in HTML"
+    },
+
+    {
+        "id": 4,
+        "questionType": "text_input",
+        "questionText": "What programming language are MOST video games programmed in?",
+        "correctAnswer": "C++",
+        "answerFieldId" : "correctAnswer_to_question",
+        "explanation": "C++'s ease of use, widespread adoption, and speed make it arguably the best candiate for creating modern demanding games"
+    },
+
+    {
+        "id": 5,
+        "questionType": "multiple_choice",
+        "questionText": "Which programming language is used for creating iOS apps today?",
+        "correctAnswer": "Swift",
+        "options": [
+            "Objective-C",
+            "Swift",
+            "Ruby",
+            "C#"
+        ],
+        "explanation": "Swift was developed in 2014 to replace Apple's existing decades old programming language, Objective-C"
+    },
+
+    {
+        "id": 6,
+        "questionType": "multiple_choice",
+        "questionText": "What is the most widely used IDE (Integrated Developement Environment) by programmers?",
+        "correctAnswer": "Visual Studio Code",
+        "options": [
+            "Atom",
+            "Sublime",
+            "Vim",
+            "Visual Studio Code"
+        ],
+        "explanation": "In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the most popular developer environment tool among 82,000 respondents"
+    },
+
+    {
+        "id": 7,
+        "questionType": "true_false",
+        "questionText": "A recursive function is a function that calls itself",
+        "correctAnswer": "true",
+        "options": [
+          "true",
+          "false"
+        ],
+        "explanation": "Recursion is a method of solving computational problems where the solution depends on solutions to smaller instances of the same problem"
+    },
+
+    {
+        "id": 8,
+        "questionType": "true_false",
+        "questionText": "Individual is a valid primitive data type",
+        "correctAnswer": "false",
+        "options": [
+            "true",
+            "false"
+        ],
+        "explanation": "integers, floating points (decimals), and characters primitive data types. Individual would likely be a user-initialized object"
+    },
+
+    {
+        "id": 9,
+        "questionType": "multiple_choice",
+        "questionText": "Which is NOT a valid data structure?",
+        "correctAnswer": "Linked Table",
+        "options": [
+            "Array",
+            "Linked Table",
+            "HashMap",
+            "Stack"
+        ],
+        "explanation": "There is such thing as a LinkedList and a HashTable, but not a Linked Table"
+    },
+
+    {
+        "id": 10,
+        "questionType": "text_input",
+        "questionText": "In Python, what keyword do you use to declare a function?",
+        "correctAnswer": "def",
+        "answerFieldId" : "correctAnswer_to_question",
+        "explanation": "def followed by the name of your function is what is used to declare functions in Python"
+    },
+
+    {
+        "id": 11,
+        "questionType": "multiple_choice",
+        "questionText": "Which data structure has an average search of O(log n)?",
+        "correctAnswer": "Binary Tree",
+        "options": [
+            "Array",
+            "LinkedList",
+            "HashMap",
+            "Binary Tree"
+        ],
+        "explanation": "In at least a Balanced Binary Search Tree, each parent node has two child nodes, which will cut the search time logarithmically (opposite of exponentially)"
+    },
+
+    {
+        "id": 12,
+        "questionType": "multiple_choice",
+        "questionText": "Which coding language is most commonly used for databases?",
+        "correctAnswer": "SQL",
+        "options": [
+            "Python",
+            "R",
+            "JavaScript",
+            "SQL"
+        ],
+        "explanation": "Structured Query Language is most commonly used in database software to create tables, insert data, and query data"
+    },
+
+    {
+        "id": 13,
+        "questionType": "multiple_choice",
+        "questionText": "Which programming language is mostly used for Android apps?",
+        "correctAnswer": "Kotlin",
+        "options": [
+            "Kotlin",
+            "Swift",
+            "React Native",
+            "C++"
+        ],
+        "explanation": "Released in 2016, to be a concise and easier alternative to Java, but still fully interoperates with Java and the JVM"
+    },
+
+    {
+        "id": 14,
+        "questionType": "multiple_choice",
+        "questionText": "What is the time complexity of a nested for-loop?",
+        "correctAnswer": "O(n^2)",
+        "options": [
+            "O(log n)",
+            "O(n^2)",
+            "O(n log n)",
+            "O(2^n)"
+        ],
+        "explanation": "A for-loop will be O(n) or n length times. Using a for-loop inside another one will make it n*n operations (or n^2)"
+    },
+
+    {
+        "id": 15,
+        "questionType": "multiple_choice",
+        "questionText": "Which scripting language is commonly used in Unix-based operating systems?",
+        "correctAnswer": "BASH",
+        "options": [
+            "BASIC",
+            "BASH",
+            "BATCH",
+            "PowerShell"
+        ],
+        "explanation": "Unix-based operating systems such as macOS and Linux, will use the Bourne Again Shell language to execute terminal commands and shell scripts"
+    },
+
+    {
+        "id": 16,
+        "questionType": "multiple_choice",
+        "questionText": "Which is considered to be the oldest programming language?",
+        "correctAnswer": "Fortran",
+        "options": [
+            "Cobol",
+            "Fortran",
+            "Assembly",
+            "Lisp"
+        ],
+        "explanation": "FORTRAN (Formula Translation) is a programming language created back in 1957"
+    },
+
+    {
+        "id": 17,
+        "questionType": "multiple_choice",
+        "questionText": "What was the original name for JavaScript?",
+        "correctAnswer": "Mocha",
+        "options": [
+            "Netbeans",
+            "Mocha",
+            "LiveScript",
+            "Netscape"
+        ],
+        "explanation": "Mocha was the original name for the language created by the company Netscape in 1995. They eventually change the name to JavaScript to gain wider popularity."
+    },
+
+    {
+        "id": 18,
+        "questionType": "multiple_choice",
+        "questionText": "Which data structure is first-in last-out?",
+        "correctAnswer": "Stack",
+        "options": [
+            "Stack",
+            "Array",
+            "Queue",
+            "Binary Tree"
+        ],
+        "explanation": "A stack is a data-structure in which the last index is the first that will be viewed in a search operation, with the first index being the last (like stacking plates)"
+    },
+
+    {
+        "id": 19,
+        "questionType": "multiple_choice",
+        "questionText": "Which data structure is first-in first-out?",
+        "correctAnswer": "Queue",
+        "options": [
+            "Stack",
+            "Array",
+            "Queue",
+            "Binary"
+        ],
+        "explanation": "Like a line (or queue) at store, the first person on the line wil be the first at the register."
+    },
+
+    {
+        "id": 20,
+        "questionType": "image_choice",
+        "questionText": "Which is the correct logo for Swift?",
+        "correctAnswer": "images/swift.png",
+        "options": [
+            "images/java-logo.png",
+            "imges/python-logo.png",
+            "images/swift.png",
+            "images/VisualStudio-logo.png"
+        ],
+        "explanation": "A = Java, B = Python, and D = Visual Studio"
+    }
+
+    ]
+}

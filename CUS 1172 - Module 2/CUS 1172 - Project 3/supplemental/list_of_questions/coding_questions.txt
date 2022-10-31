@@ -1,0 +1,120 @@
+1). Which of the following programming languages is the most low-level?
+    (a). Java
+    (b). C
+    (c). Assembly
+    (d). C++
+
+2). Which of the following programming languages is the most high-level?
+    (a). C++
+    (b). Java
+    (c). C#
+    (d). Python
+
+3). What is the specific use case of the CSS language?
+    (a). Programming hardware
+    (b). Creating mobile applications
+    (c). Styling web pages
+    (d). Mathematical utilization in engineering
+
+4). What are MOST video games programmed in?
+    (a). C
+    (b). C++
+    (c). C#
+    (d). Java
+
+5). Which programming language is used for creating iOS apps today?
+    (a). Objective-C
+    (b). Ruby
+    (c). Swift
+    (d). C#
+
+6). What is the most widely used IDE (Integrated Developement Environment) by programmers?
+    (a). Atom
+    (b). Sublime
+    (c). Vim
+    (d). Visual Studio Code
+
+7). What is a recursive function?
+    (a). A function that has no return value
+    (b). A function that takes in no parameters
+    (c). A fucntion that has while loops
+    (d). A function that calls itself
+
+8). Which is NOT a valid primitive data type?
+    (a). integer
+    (b). individual
+    (c). floating point
+    (d). boolean
+
+9). Which is NOT a valid data structure?
+    (a). Array
+    (b). Linked Table
+    (c). Hash Map
+    (d). Stack
+
+10). In Python, what keyword do you use to declare a function?
+    (a). function
+    (b). define
+    (c). def
+    (d). fctn
+
+11). Which data structure has an average search of O(log n)?
+    (a). Array
+    (b). LinkedList
+    (c). HashMap
+    (d). Binary Tree
+
+12). Which coding language is most commonly used in databases
+    (a). Python
+    (b). R
+    (c). JavaScript
+    (d). SQL
+
+13). Which programming language is most commonly used for developing Android apps?
+    (a). Kotlin
+    (b). Swift
+    (c). React Native
+    (d). C++
+
+14). What is the time complexity of a nested for-loop?
+    (a). O(log n)
+    (b). O(n^2)
+    (c). O(n log n)
+    (d). O(2^n)
+
+
+15). Which scripting language is commonly used in Unix-based operating systems?
+    (a). BASIC
+    (b). BASH
+    (c). BATCH
+    (d). PowerShell
+
+16). Which is considered to be the oldest programming language?
+    (a). Cobol
+    (b). Fortran
+    (c). Assembly
+    (d). Lisp
+
+17). What was the original name for JavaScript?
+    (a). Netbeans
+    (b). Mocha
+    (c). LiveScript
+    (d). Netscape
+
+18). Which data structure is first in last out?
+    (a). Stack
+    (b). Array
+    (c). Queue
+    (d). Binary Tree
+
+19). Which data structure is first in first out?
+    (a). Stack
+    (b). Array
+    (c). Queue
+    (d). Binary Tree
+
+20). What is the most difficult thing to do in the field of technolgy?
+    (a). Program the calculations for man's descent to Earth from space
+    (b). Establish a complex Artificial Intelligence system that replaces the need for human reasoning
+    (c). Build a FizzBuzz game in Assembly 
+    (d). Center a <div> element

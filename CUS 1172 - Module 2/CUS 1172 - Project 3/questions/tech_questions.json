@@ -1,0 +1,279 @@
+{
+    "tech_questions": [
+    {
+        "id": 1,
+        "questionType": "multiple_choice",
+        "questionText": "Which component is considered the 'brain' of the computer?",
+        "correctAnswer": "CPU (Central Processing Unit)",
+        "options": [
+            "Motherboard",
+            "CPU (Central Processing Unit)",
+            "RAM (Random Access Memory)",
+            "Secondary Storage (Hard Drive)"
+        ],
+        "explanation": "A CPU handles is the electronic circuitry that executes instructions"
+    },
+
+    {
+        "id": 2,
+        "questionType": "multiple_choice",
+        "questionText": "What is the memory limit of 32-bit operating system?",
+        "correctAnswer": "4GB",
+        "options": [
+            "2GB",
+            "4GB",
+            "8GB",
+            "32GB"
+        ],
+        "explanation": "2^32 = 4,294,967,296 bytes or ~4GB"
+    },
+
+    {
+        "id": 3,
+        "questionType": "multiple_choice",
+        "questionText": "What is the memory limit of 64-bit operating system?",
+        "correctAnswer": "16EB",
+        "options": [
+            "16GB",
+            "16TB",
+            "16PB",
+            "16EB"
+        ],
+        "explanation": "2^64 = 18,446,744,073,709 bytes or ~16 exabytes"
+    },
+
+    {
+        "id": 4,
+        "questionType": "multiple_choice",
+        "questionText": "What resolution is 4K video?",
+        "correctAnswer": "3840 x 2160",
+        "options": [
+            "1920 x 1080",
+            "3840 x 2160",
+            "1024 x 768",
+            "7680 x 4320"
+        ],
+        "explanation": "3840 pixels across is almost equal to 4,000 pixels across"
+    },
+
+    {
+        "id": 5,
+        "questionType": "multiple_choice",
+        "questionText": "What is currently the largest counsumer hard disk drive?",
+        "correctAnswer": "20TB",
+        "options": [
+            "5TB",
+            "10TB",
+            "20TB",
+            "40TB"
+        ],
+        "explanation": "Seagate offers consumer hard disk drives in 20 terabytes"
+    },
+
+    {
+        "id": 6,
+        "questionType": "multiple_choice",
+        "questionText": "What is currently the largest consumer solid state drive?",
+        "correctAnswer": "15TB",
+        "options": [
+            "500GB",
+            "1TB",
+            "8TB",
+            "15TB"
+        ],
+        "explanation": "Teamgroup offers solid state drives with 15.3 terabytes"
+    },
+
+    {
+        "id": 7,
+        "questionType": "text_input",
+        "questionText": "Who is the creator of the Linux kernel?",
+        "correctAnswer": "Linus Torvalds",
+        "answerFieldId" : "correctAnswer_to_question",
+        "explanation": "Linus Benedict Torvalds created the Unix based kernel in 1991"
+    },
+
+    {
+        "id": 8,
+        "questionType": "multiple_choice",
+        "questionText": "Who is considered as the father of computing?",
+        "correctAnswer": "Charles Babbage",
+        "options": [
+            "Alan Turing",
+            "Charles Babbage",
+            "Herm Hollerith",
+            "Niko Tesla"
+        ],
+        "explanation": "Charles Babbage is considered to be the father of computing following his invention of the analytical engine in 1837"
+    },
+
+    {
+        "id": 9,
+        "questionType": "multiple_choice",
+        "questionText": "Which comapny was NOT founded by Elon Musk?",
+        "correctAnswer": "Twitter",
+        "options": [
+            "Twitter",
+            "Tesla",
+            "The Boring Company",
+            "SpaceX"
+        ],
+        "explanation": "Twitter is a company that Elon PURCHASED in October of 2022"
+    },
+
+    {
+        "id": 10,
+        "questionType": "multiple_choice",
+        "questionText": "LinkedIn is owned by which major tech company?",
+        "correctAnswer": "Microsoft",
+        "options": [
+            "Meta Platforms (Facebook)",
+            "Google (Alphabet Inc)",
+            "Amazon",
+            "Microsoft"
+        ],
+        "explanation": "In December of 2016, Microsoft acquired LinkedIn for $26.2 billion"
+    },
+
+    {
+        "id": 11,
+        "questionType": "multiple_choice",
+        "questionText": "Which web-browswer is NOT Chromium based?",
+        "correctAnswer": "Mozilla Firefox",
+        "options": [
+            "Microsoft Edge",
+            "Mozilla Firfox",
+            "Opera",
+            "Brave"
+        ],
+        "explanation": "Most browswers today except for Firefox are based on the open-source Chromium project. Firefox runs on their Quantum browswer-engine"
+    },
+
+    {
+        "id": 12,
+        "questionType": "multiple_choice",
+        "questionText": "What number base system do computers use?",
+        "correctAnswer": "Binary (Base 2)",
+        "options": [
+            "Unary (Base 1)",
+            "Binary (Base 2)",
+            "Decimal (Base 10)",
+            "Hexadecimal (Base 16)"
+        ],
+        "explanation": "Transistors only understand OFF & ON states, which the binary system represents with 0 & 1"
+    },
+
+    {
+        "id": 13,
+        "questionType": "multiple_choice",
+        "questionText": "What is the fourth layer in the TCP/IP model?",
+        "correctAnswer": "Transport",
+        "options": [
+            "Physical",
+            "RAM",
+            "Transport",
+            "Application"
+        ],
+        "explanation": "1. Physical 2. Data-Link 3. Network 4. Transport 5. Application. RAM is not a layer"
+    },
+
+    {
+        "id": 14,
+        "questionType": "true_false",
+        "questionText": "To increase the performance of an old computer, the first component to replace is the disk drive",
+        "correctAnswer": "true",
+        "options": [
+            "true",
+            "false"
+        ],
+        "explanation": "The CPU and RAM have incredibly fast memroy and retrieve data from the slower memory found on secondary storage. If a PC is using a hard disk drive, the bottlenecks will be tremendous."
+    },
+    
+    {
+        "id": 15,
+        "questionType": "multiple_choice",
+        "questionText": "Which operating system is considered the lightest?",
+        "correctAnswer": "Linux",
+        "options": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "Solaris"
+        ],
+        "explanation": "Due to its open-source nature and varierty of distributions, many Linux-based operating sytems are able to run efficiently on low-spec hardware"
+    },
+
+
+    {
+        "id": 16,
+        "questionType": "multiple_choice",
+        "questionText": "Which video conferencing is owned by Cisco?",
+        "correctAnswer": "WebEx",
+        "options": [
+            "Zoom",
+            "WebEx",
+            "Skype",
+            "Meet"
+        ],
+        "explanation": "Zoom is developed by Zoom Video Communications, Skype by Microsoft, and Meet by Google"
+    },
+
+    {
+        "id": 17,
+        "questionText": "Which social media platform is owned by a company outside the US?",
+        "correctAnswer": "iamges/tiktok-logo.png",
+        "options": [
+            "images/facebook-logo.png",
+            "imges/snapchat-logo.png",
+            "images/twitter-logo.png",
+            "images/tiktok-logo.png"
+        ],
+        "explanation": "TikTok was developed by ByteDance Ltd., which is a Chinese internet technology company headquartered in Beijing"
+    },
+
+    {
+        "id": 18,
+        "questionType": "multiple_choice",
+        "questionText": "Which big production company does NOT have its own streaming service?",
+        "correctAnswer": "Sony",
+        "options": [
+            "Disney",
+            "Sony",
+            "NBC",
+            "Paramount"
+        ],
+        "explanation": "Disney has Disney+ and 66% of Hulu, NBC has Peacock and 33% of Hulu, Paramount has Paramount+"
+    },
+
+    
+    {
+        "id": 19,
+        "questionType": "multiple_choice",
+        "questionText": "Which company was among the first to launch smartwatches?",
+        "correctAnswer": "Samsung",
+        "options": [
+            "Apple",
+            "Google",
+            "Samsung",
+            "Huwaei"
+        ],
+        "explanation": "Along with Sony, Samsung released their first lineup of Galaxy Gear smartwaches back in 2013, at least 2 years before Apple Watch in 2015"
+    },
+
+    
+    {
+        "id": 20,
+        "questionType": "multiple_choice",
+        "questionText": "How much was WhatsApp acquired for?",
+        "correctAnswer": "$19.3 billion",
+        "options": [
+            "$1.2 billion",
+            "$5.3 billion",
+            "$10.7 billion",
+            "$19.3 billion"
+        ],
+        "explanation": "WhatsApp was acquired by Meta Platforms (formerly Facebook Inc) in Feburary 2014, for approximately $19.3 billion (exceeding Oculus and Instagram)"
+    }
+
+    ]
+} 

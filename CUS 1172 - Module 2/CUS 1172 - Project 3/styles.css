@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(232,251,255);
+    background: linear-gradient(90deg, rgba(232,251,255,1) 0%, rgba(238,252,255,1) 50%, rgba(232,251,255,1) 100%);
+}
+
+.container a {
+    font-weight: 700;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: xx-large;
+}
+
+span {
+    font-size: x-large;
+}
+
+#TF_question {
+    margin-left: 35%;
+}
+
+#mc-questions-container span {
+    text-align: center;
+}
+
+.col2 .col3 {
+    display: grid;
+    place-items: center;
+}
+
+
