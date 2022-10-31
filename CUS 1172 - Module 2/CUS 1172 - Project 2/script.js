@@ -7,6 +7,7 @@
 
 let priority_level = document.getElementById("priority_level");
 
+
 let inProgress = [];
 let completed = [];
 
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector("#task").value = '';
         console.log("task input was cleared");
 // Appending the task elements to an array
-        inProgress.push(task);
+        inProgress.push(task_title);
         console.log(inProgress);
         return false;
  
