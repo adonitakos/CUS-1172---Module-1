@@ -105,6 +105,25 @@
       </div>
   </script>
 
+<!-- Multi-Text-Input  -->
+<script id="question_view_mutli_text_input" type="text/x-handlebars-template">
+  <div class="mti_container">
+    <div class="row">
+        <div class="col">
+          <div>
+            <span style="text-align:center"> {{this.questionText}} </span>
+            <input type="text" id="{{this.answerFieldId[0]}}" name="answer0">
+            <input type="text" id="{{this.answerFieldId[1]}}" name="answer1">
+            <input type="text" id="{{this.answerFieldId[2]}}" name="answer2">
+            <input type="text" id="{{this.answerFieldId[3]}}" name="answer3"><br><br>
+            <button class="btn btn-success float-right" data-action="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</script>
+
+
   <!-- Image Choice -->
   <script id="question_view_image_choice" type="text/x-handlebars-template">
     <div class="img_choice_container">
@@ -113,13 +132,13 @@
             <div id = image-questions-container>
               <span id="ic_choice_question" style="text-align:center"> {{this.questionText}}</span>
             </div>
-          <div class="col2">
-            <button class="btn btn-primary pull-left" data-action="answer" data-answer= "{{this.options.[0]}}">{{this.options.[0]}}</button>
-            <button class="btn btn-danger float-right" data-action="answer" data-answer="{{this.options.[1]}}">{{this.options.[1]}}</button>
+          <div class="col2">   
+            <img src="{{this.options.[0]}}"></button>
+            <img src="{{this.options.[1]}}"></button>
           </div>
           <div class="col3">
-            <button class="btn btn-success pull-left" data-action="answer" data-answer="{{this.options.[2]}}">{{this.options.[2]}}</button>
-            <button class="btn btn-warning float-right" data-action="answer" data-answer="{{this.options.[3]}}">{{this.options.[3]}}</button>
+            <img src={{this.options.[2]}}></button>
+            <img src={{this.options.[3]}}></button>
           </div>
           </div>
         </div>

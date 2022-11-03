@@ -17,7 +17,7 @@
     {
         "id": 2,
         "questionType": "multiple_choice",
-        "questionText": "What is the memory limit of 32-bit operating system?",
+        "questionText": "What is the memory limit of a 32-bit operating system?",
         "correctAnswer": "4GB",
         "options": [
             "2GB",
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "questionType": "multiple_choice",
-        "questionText": "What is the memory limit of 64-bit operating system?",
+        "questionText": "What is the memory limit of a 64-bit operating system?",
         "correctAnswer": "16EB",
         "options": [
             "16GB",
@@ -223,10 +223,10 @@
         "questionText": "Which social media platform is owned by a company outside the US?",
         "correctAnswer": "iamges/tiktok-logo.png",
         "options": [
-            "images/facebook-logo.png",
-            "imges/snapchat-logo.png",
-            "images/twitter-logo.png",
-            "images/tiktok-logo.png"
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/facebook-logo.png",
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/snapchat-logo.png",
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/twitter-logo.png",
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/tiktok-logo.png"
         ],
         "explanation": "TikTok was developed by ByteDance Ltd., which is a Chinese internet technology company headquartered in Beijing"
     },

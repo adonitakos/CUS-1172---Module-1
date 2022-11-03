@@ -3,7 +3,7 @@
 // In the demo code the model is hard-coded; However, in 
 // a real application the model will be loaded from a RESTFUL API.
 
-//
+// PURELY SAMPLE QUESTIONS FOR TESTING!:
 const questions = [
     {
       questionType : "true_false",
@@ -17,23 +17,33 @@ const questions = [
       correctAnswer : "2",
       answerFieldId : "answer_to_question",
     },
+
     {
       questionType: "multiple_choice",
       questionText: "What is Adoni's last name?",
       correctAnswer: "Takos",
-      options: ["Papadopoulos", "Demetrios", "Takos", "Yiannopoulos"],
+      options: ["Papadopoulos", "Smith", "Takos", "Russo"],
     },
+   
     {
-      questionType: "image_choice",
-      questionText: "Which is the correct logo for Swift?",
-      correctAnswer: "images/swift.png",
-      options: [
-          "images/java-logo.png",
-          "imges/python-logo.png",
-          "images/swift.png",
-          "images/VisualStudio-logo.png"
-      ],
+      questionType: "multi-text-input",
+      questionText: "What does FAANG stand for in Big Tech?",
+      correctAnswer: ["Facebook", "Apple", "Amazon", "Netflix", "Google"],
+      answerFieldId: "answer_to_question"
     }
+
+    // {
+    //   questionType: "image_choice",
+    //   questionText: "Which is the correct logo for Swift?",
+    //   correctAnswer: "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/swift.png",
+    //   options: [
+    //       "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/java-logo.png",
+    //       "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/python-logo.png",
+    //       "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/swift.png",
+    //       "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/VisualStudio-logo.png"
+    //   ],
+    //   explanation: "A = Java, B = Python, and D = Visual Studio",
+    // }
 
   ] // <--- questions[] Array ends here
   
@@ -45,13 +55,22 @@ const questions = [
   } // <--- appState variable ends here
 
 // API request function
-  async function fetch_questions() {
+  async function fetch_question(questionId, quizChoice) {
     try {
       // Notice: the fetch call returns a Promise Object.
       // await 'pauses' the execution in this code sequece waiting for the 
       // promise to be fullfilled (i.e. the data arrive)  - in a non-clocking way.
       // Once promise is fullfilled the 'response' variable  holds an object of type Response  
-      url = 'https://my-json-server.typicode.com/adonitakos/coding_questions/db'
+      let api_endpoint_url = ''
+
+      if (quizChoice == "techQuiz") {
+        api_endpoint_url = "https://my-json-server.typicode.com/adonitakos/coding_questions/db"
+      }
+
+      if (quizChoice = "codingQuiz") {
+        api_endpoint_url = "https://my-json-server.typicode.com/adonitakos/tech_questions/db"
+      }
+      
       const response = await fetch(url)
       
       // Notice: the json() method itself returns a Promise object 
@@ -95,7 +114,7 @@ const questions = [
       if (e.target.dataset.action == "start_app") {
   
           // Update State (current model + state variables)
-          appState.current_question = 0
+          appState.current_question = -1;
           appState.current_model = questions[appState.current_question];
           // process the appState, based on question type update appState.current_view
           setQuestionView(appState);
@@ -150,8 +169,8 @@ const questions = [
          
            // Update the state.
            updateQuestion(appState);
-           //appState.current_question = appState.current_question + 1;
-           //appState.current_model = questions[appState.current_question];
+          //  appState.current_question = appState.current_question + 1;
+          //  appState.current_model = questions[appState.current_question];
            
            setQuestionView(appState);
          
@@ -161,25 +180,40 @@ const questions = [
          } // <--- nested if() statement ends here
        } // <--- if(#question_view_multiple_choice) statement ends here
 
-       // // Handle answer event for image choice questions:
-       if (appState.current_view == "#question_view_image_choice") {
+      //  // // Handle answer event for image choice questions:
+      //  if (appState.current_view == "#question_view_image_choice") {
   
-        if (e.target.dataset.action == "answer") {
-           // Controller - implement logic.
-           isCorrect = check_user_response(e.target.dataset.answer, appState.current_model);
+      //   if (e.target.dataset.action == "answer") {
+      //      // Controller - implement logic.
+      //      isCorrect = check_user_response(e.target.dataset.answer, appState.current_model);
          
-           // Update the state.
-           updateQuestion(appState);
-           //appState.current_question = appState.current_question + 1;
-           //appState.current_model = questions[appState.current_question];
+      //      // Update the state.
+      //      updateQuestion(appState);
+      //      //appState.current_question = appState.current_question + 1;
+      //      //appState.current_model = questions[appState.current_question];
            
-           setQuestionView(appState);
+      //      setQuestionView(appState);
          
-           // Update the view.  
-           update_view(appState);
+      //      // Update the view.  
+      //      update_view(appState);
     
-         } // <--- nested if() statement ends here
-       } // <--- if(#question_view_image_choice) statement ends here
+      //    } // <--- nested if() statement ends here
+      //  } // <--- if(#question_view_image_choice) statement ends here
+
+      // Handle answer event for text questions.
+     if (appState.current_view == "#question_view_multi_text_input") {
+      if (e.target.dataset.action == "submit") {
+    
+          user_response = document.querySelector(`#${appState.current_model.answerFieldId}`).value;
+          isCorrect = check_user_response(e.target.dataset.answer, appState.current_model);
+          updateQuestion(appState)
+          //appState.current_question =   appState.current_question + 1;
+          //appState.current_model = questions[appState.current_question];
+          setQuestionView(appState);
+          update_view(appState);
+          console.log("View was updated");
+      } // <--- nested if() statement ends here
+   } // <--- if(#question_view_text_input) statement ends here
   
       // Handle answer event for  text questions.
       if (appState.current_view == "#end_view") {
@@ -227,8 +261,11 @@ const questions = [
     else if(appState.current_model.questionType == "multiple_choice") {
       appState.current_view = "#question_view_multiple_choice";
     }
-    else if(appState.current_model.questionType == "image_choice") {
-      appState.current_view = "#question_view_image_choice";
+    // else if(appState.current_model.questionType == "image_choice") {
+    //   appState.current_view = "#question_view_image_choice";
+    // }
+    else if(appState.current_model.questionType == "multi-text-input") {
+      appState.current_view = "#question_view_multi_text_input";
     }
   } // <--- setQuestionView() function ends here
   

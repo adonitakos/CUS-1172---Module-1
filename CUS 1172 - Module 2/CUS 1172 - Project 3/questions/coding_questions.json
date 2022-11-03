@@ -256,12 +256,12 @@
         "id": 20,
         "questionType": "image_choice",
         "questionText": "Which is the correct logo for Swift?",
-        "correctAnswer": "images/swift.png",
+        "correctAnswer": "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/swift.png",
         "options": [
-            "images/java-logo.png",
-            "imges/python-logo.png",
-            "images/swift.png",
-            "images/VisualStudio-logo.png"
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/java-logo.png",
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/python-logo.png",
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/swift.png",
+            "https://raw.githubusercontent.com/adonitakos/WebAppDev-course/master/CUS%201172%20-%20Module%202/CUS%201172%20-%20Project%203/questions/images/VisualStudio-logo.png"
         ],
         "explanation": "A = Java, B = Python, and D = Visual Studio"
     }
